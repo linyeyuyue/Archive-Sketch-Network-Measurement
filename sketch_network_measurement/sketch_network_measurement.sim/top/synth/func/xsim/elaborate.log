@@ -1,0 +1,62 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: F:/vivado/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot top_tb_func_synth xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.FDCE_default
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.RB36_INTERNAL_VLOG(READ_WIDTH_A=...
+Compiling module unisims_ver.RAMB36E1(READ_WIDTH_A=9,READ_WID...
+Compiling module xil_defaultlib.bucket_row_0
+Compiling module xil_defaultlib.bucket_row_1
+Compiling module xil_defaultlib.bucket_row_2
+Compiling module xil_defaultlib.bucket_row_3
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.FDPE_default
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.MUXF8
+Compiling module unisims_ver.MUXF7
+Compiling module xil_defaultlib.inv_lut_16bit_0
+Compiling module xil_defaultlib.ln_lut_8bit_0
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ALUMODEREG=0,...
+Compiling module xil_defaultlib.bucket_decision_0
+Compiling module xil_defaultlib.inv_lut_16bit_1
+Compiling module xil_defaultlib.ln_lut_8bit_1
+Compiling module xil_defaultlib.bucket_decision_1
+Compiling module xil_defaultlib.inv_lut_16bit_2
+Compiling module xil_defaultlib.ln_lut_8bit_2
+Compiling module xil_defaultlib.bucket_decision_2
+Compiling module xil_defaultlib.inv_lut_16bit_3
+Compiling module xil_defaultlib.ln_lut_8bit_3
+Compiling module xil_defaultlib.bucket_decision_3
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ALUMODEREG=0,...
+Compiling module xil_defaultlib.hash
+Compiling module xil_defaultlib.bucket_decision_top
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ALUMODEREG=0,...
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ALUMODEREG=0,...
+Compiling module xil_defaultlib.elem_hash
+Compiling module unisims_ver.FDRE_default
+Compiling module xil_defaultlib.dis_inv_lut
+Compiling module xil_defaultlib.estim_calc_lut
+Compiling module xil_defaultlib.bucket_refresh
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_func_synth

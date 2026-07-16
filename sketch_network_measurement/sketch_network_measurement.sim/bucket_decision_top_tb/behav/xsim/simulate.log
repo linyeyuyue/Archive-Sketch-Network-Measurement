@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+Block Memory Generator module bucket_decision_top_tb.bram_inst_0.inst.native_mem_module.blk_mem_gen_v8_4_12_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module bucket_decision_top_tb.bram_inst_1.inst.native_mem_module.blk_mem_gen_v8_4_12_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module bucket_decision_top_tb.bram_inst_2.inst.native_mem_module.blk_mem_gen_v8_4_12_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module bucket_decision_top_tb.bram_inst_3.inst.native_mem_module.blk_mem_gen_v8_4_12_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+$finish called at time : 3070 ns : File "F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.sim/bucket_decision_top_tb/bucket_decision_top_tb.v" Line 301

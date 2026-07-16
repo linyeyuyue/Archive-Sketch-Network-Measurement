@@ -1,0 +1,79 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Fri Apr  3 16:01:45 2026
+| Host         : yuyueslenovo running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'bucket_row_3'
+
+1. Summary
+----------
+
+SUCCESS in the update of bucket_row_3 (xilinx.com:ip:blk_mem_gen:8.4 (Rev. 12)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Fri Apr  3 16:01:40 2026
+| Host         : yuyueslenovo running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'bucket_row_2'
+
+1. Summary
+----------
+
+SUCCESS in the update of bucket_row_2 (xilinx.com:ip:blk_mem_gen:8.4 (Rev. 12)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Fri Apr  3 16:01:29 2026
+| Host         : yuyueslenovo running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'bucket_row_1'
+
+1. Summary
+----------
+
+SUCCESS in the update of bucket_row_1 (xilinx.com:ip:blk_mem_gen:8.4 (Rev. 12)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Fri Apr  3 16:00:46 2026
+| Host         : yuyueslenovo running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'bucket_row_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of bucket_row_0 (xilinx.com:ip:blk_mem_gen:8.4 (Rev. 12)) to current project options.
+

@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Block Memory Generator module bucket_row_tb.uut.inst.native_mem_module.blk_mem_gen_v8_4_12_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+blk_mem_gen_v8_4_12 collision detected at time: 1850000, Instance: bucket_row_tb.uut.inst.native_mem_module.blk_mem_gen_v8_4_12_inst, A write address: 20, B  read address: 20
+$finish called at time : 1990 ns : File "F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.sim/bucket_row_tb/bucket_row_tb.v" Line 206

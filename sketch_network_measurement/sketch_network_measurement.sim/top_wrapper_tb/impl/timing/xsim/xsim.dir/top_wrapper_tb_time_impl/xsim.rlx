@@ -1,0 +1,12 @@
+
+{ 
+    crc :  10970318627240112979  , 
+    ccp_crc :  0  , 
+    cmdline : " --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot top_wrapper_tb_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.top_wrapper_tb xil_defaultlib.glbl" , 
+    buildDate : "Nov 14 2025" , 
+    buildTime : "19:37:27" , 
+    linkCmd : "F:\\vivado\\2025.2\\Vivado\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/top_wrapper_tb_time_impl/xsimk.exe\"   -Wl,--whole-archive \"xsim.dir/top_wrapper_tb_time_impl/obj/xsim.win64.a\" -Wl,--no-whole-archive  -L\"F:\\vivado\\2025.2\\Vivado\\lib\\win64.o\" -lxv_simulator_kernel   -lxv_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

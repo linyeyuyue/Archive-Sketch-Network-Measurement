@@ -1,0 +1,35 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../vivado/2025.2/Vivado/data/rsb/busdef" \
+"../../../../sketch_network_measurement.gen/sources_1/ip/bucket_row_0/sim/bucket_row_0.v" \
+"../../../../sketch_network_measurement.gen/sources_1/ip/bucket_row_1/sim/bucket_row_1.v" \
+"../../../../sketch_network_measurement.gen/sources_1/ip/ila_0/sim/ila_0.v" \
+"../../../../sketch_network_measurement.srcs/original/hash.v" \
+"../../../../sketch_network_measurement.srcs/original/bucket_refresh.v" \
+"../../../../sketch_network_measurement.srcs/original/bucket_decision_top.v" \
+"../../../../sketch_network_measurement.srcs/original/bucket_decision_2.v" \
+"../../../../sketch_network_measurement.srcs/original/bucket_decision_3.v" \
+"../../../../sketch_network_measurement.srcs/original/bucket_decision_0.v" \
+"../../../../sketch_network_measurement.srcs/original/bucket_decision_1.v" \
+"../../../../sketch_network_measurement.srcs/original/inv_lut_16bit_2.v" \
+"../../../../sketch_network_measurement.srcs/original/inv_lut_16bit_1.v" \
+"../../../../sketch_network_measurement.srcs/original/inv_lut_16bit_3.v" \
+"../../../../sketch_network_measurement.srcs/original/inv_lut_16bit_0.v" \
+"../../../../sketch_network_measurement.srcs/original/ln_lut_8bit_3.v" \
+"../../../../sketch_network_measurement.srcs/original/ln_lut_8bit_1.v" \
+"../../../../sketch_network_measurement.srcs/original/ln_lut_8bit_2.v" \
+"../../../../sketch_network_measurement.srcs/original/dis_inv_lut.v" \
+"../../../../sketch_network_measurement.srcs/original/estim_calc_lut.v" \
+"../../../../sketch_network_measurement.srcs/original/ln_lut_8bit_0.v" \
+"../../../../sketch_network_measurement.srcs/original/elem_hash.v" \
+"../../../../sketch_network_measurement.srcs/original/top.v" \
+"../../../../sketch_network_measurement.gen/sources_1/ip/bucket_row_2/sim/bucket_row_2.v" \
+"../../../../sketch_network_measurement.gen/sources_1/ip/bucket_row_3/sim/bucket_row_3.v" \
+"../../../../sketch_network_measurement.srcs/original/test_stimulus.v" \
+"../../../../sketch_network_measurement.srcs/original/top_wrapper.v" \
+"../../top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

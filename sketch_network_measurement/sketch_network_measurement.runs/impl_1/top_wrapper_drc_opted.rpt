@@ -1,0 +1,993 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Mon May  4 07:45:59 2026
+| Host         : yuyueslenovo running 64-bit major release  (build 9200)
+| Command      : report_drc -file top_wrapper_drc_opted.rpt -pb top_wrapper_drc_opted.pb -rpx top_wrapper_drc_opted.rpx
+| Design       : top_wrapper
+| Device       : xc7z020clg484-2
+| Speed File   : -2
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max checks: <unlimited>
+             Checks found: 190
++-----------+----------+----------------------------+--------+
+| Rule      | Severity | Description                | Checks |
++-----------+----------+----------------------------+--------+
+| CHECK-3   | Warning  | Report rule limit reached  | 1      |
+| DPIP-1    | Warning  | Input pipelining           | 27     |
+| DPOP-1    | Warning  | PREG Output pipelining     | 19     |
+| DPOP-2    | Warning  | MREG Output pipelining     | 21     |
+| DPOR-1    | Warning  | Asynchronous load check    | 17     |
+| RBOR-1    | Warning  | RAMB output registers      | 84     |
+| REQP-1839 | Warning  | RAMB36 async control check | 20     |
+| ZPS7-1    | Warning  | PS7 block required         | 1      |
++-----------+----------+----------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+CHECK-3#1 Warning
+Report rule limit reached  
+REQP-1839 rule limit reached: 20 violations have been found.
+Related violations: <none>
+
+DPIP-1#1 Warning
+Input pipelining  
+DSP u_top/decision_inst/decision_inst_0/v_full input u_top/decision_inst/decision_inst_0/v_full/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#2 Warning
+Input pipelining  
+DSP u_top/decision_inst/decision_inst_0/v_full input u_top/decision_inst/decision_inst_0/v_full/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#3 Warning
+Input pipelining  
+DSP u_top/decision_inst/decision_inst_1/v_full input u_top/decision_inst/decision_inst_1/v_full/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#4 Warning
+Input pipelining  
+DSP u_top/decision_inst/decision_inst_1/v_full input u_top/decision_inst/decision_inst_1/v_full/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#5 Warning
+Input pipelining  
+DSP u_top/decision_inst/decision_inst_2/v_full input u_top/decision_inst/decision_inst_2/v_full/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#6 Warning
+Input pipelining  
+DSP u_top/decision_inst/decision_inst_2/v_full input u_top/decision_inst/decision_inst_2/v_full/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#7 Warning
+Input pipelining  
+DSP u_top/decision_inst/decision_inst_3/v_full input u_top/decision_inst/decision_inst_3/v_full/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#8 Warning
+Input pipelining  
+DSP u_top/decision_inst/decision_inst_3/v_full input u_top/decision_inst/decision_inst_3/v_full/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#9 Warning
+Input pipelining  
+DSP u_top/decision_inst/hash_inst/product_0 input u_top/decision_inst/hash_inst/product_0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#10 Warning
+Input pipelining  
+DSP u_top/decision_inst/hash_inst/product_0__0 input u_top/decision_inst/hash_inst/product_0__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#11 Warning
+Input pipelining  
+DSP u_top/decision_inst/hash_inst/product_0__1 input u_top/decision_inst/hash_inst/product_0__1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#12 Warning
+Input pipelining  
+DSP u_top/decision_inst/hash_inst/product_1 input u_top/decision_inst/hash_inst/product_1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#13 Warning
+Input pipelining  
+DSP u_top/decision_inst/hash_inst/product_1__0 input u_top/decision_inst/hash_inst/product_1__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#14 Warning
+Input pipelining  
+DSP u_top/decision_inst/hash_inst/product_1__1 input u_top/decision_inst/hash_inst/product_1__1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#15 Warning
+Input pipelining  
+DSP u_top/decision_inst/hash_inst/product_2 input u_top/decision_inst/hash_inst/product_2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#16 Warning
+Input pipelining  
+DSP u_top/decision_inst/hash_inst/product_2__0 input u_top/decision_inst/hash_inst/product_2__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#17 Warning
+Input pipelining  
+DSP u_top/decision_inst/hash_inst/product_2__1 input u_top/decision_inst/hash_inst/product_2__1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#18 Warning
+Input pipelining  
+DSP u_top/decision_inst/hash_inst/product_3 input u_top/decision_inst/hash_inst/product_3/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#19 Warning
+Input pipelining  
+DSP u_top/decision_inst/hash_inst/product_3__0 input u_top/decision_inst/hash_inst/product_3__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#20 Warning
+Input pipelining  
+DSP u_top/decision_inst/hash_inst/product_3__1 input u_top/decision_inst/hash_inst/product_3__1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#21 Warning
+Input pipelining  
+DSP u_top/refresh_inst/bucket_score_new_reg2 input u_top/refresh_inst/bucket_score_new_reg2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#22 Warning
+Input pipelining  
+DSP u_top/refresh_inst/bucket_score_new_reg2 input u_top/refresh_inst/bucket_score_new_reg2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#23 Warning
+Input pipelining  
+DSP u_top/refresh_inst/bucket_score_new_reg3 input u_top/refresh_inst/bucket_score_new_reg3/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#24 Warning
+Input pipelining  
+DSP u_top/refresh_inst/bucket_score_new_reg3 input u_top/refresh_inst/bucket_score_new_reg3/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#25 Warning
+Input pipelining  
+DSP u_top/refresh_inst/bucket_score_new_reg3 input u_top/refresh_inst/bucket_score_new_reg3/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#26 Warning
+Input pipelining  
+DSP u_top/refresh_inst/hash_inst/elem_hash1 input u_top/refresh_inst/hash_inst/elem_hash1/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#27 Warning
+Input pipelining  
+DSP u_top/refresh_inst/hash_inst/elem_hash1__0 input u_top/refresh_inst/hash_inst/elem_hash1__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-1#1 Warning
+PREG Output pipelining  
+DSP u_top/decision_inst/decision_inst_0/v_full output u_top/decision_inst/decision_inst_0/v_full/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#2 Warning
+PREG Output pipelining  
+DSP u_top/decision_inst/decision_inst_1/v_full output u_top/decision_inst/decision_inst_1/v_full/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#3 Warning
+PREG Output pipelining  
+DSP u_top/decision_inst/decision_inst_2/v_full output u_top/decision_inst/decision_inst_2/v_full/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#4 Warning
+PREG Output pipelining  
+DSP u_top/decision_inst/decision_inst_3/v_full output u_top/decision_inst/decision_inst_3/v_full/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#5 Warning
+PREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_0 output u_top/decision_inst/hash_inst/product_0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#6 Warning
+PREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_0__0 output u_top/decision_inst/hash_inst/product_0__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#7 Warning
+PREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_0__1 output u_top/decision_inst/hash_inst/product_0__1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#8 Warning
+PREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_1 output u_top/decision_inst/hash_inst/product_1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#9 Warning
+PREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_1__0 output u_top/decision_inst/hash_inst/product_1__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#10 Warning
+PREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_1__1 output u_top/decision_inst/hash_inst/product_1__1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#11 Warning
+PREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_2 output u_top/decision_inst/hash_inst/product_2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#12 Warning
+PREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_2__0 output u_top/decision_inst/hash_inst/product_2__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#13 Warning
+PREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_2__1 output u_top/decision_inst/hash_inst/product_2__1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#14 Warning
+PREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_3 output u_top/decision_inst/hash_inst/product_3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#15 Warning
+PREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_3__0 output u_top/decision_inst/hash_inst/product_3__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#16 Warning
+PREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_3__1 output u_top/decision_inst/hash_inst/product_3__1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#17 Warning
+PREG Output pipelining  
+DSP u_top/refresh_inst/bucket_score_new_reg2 output u_top/refresh_inst/bucket_score_new_reg2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#18 Warning
+PREG Output pipelining  
+DSP u_top/refresh_inst/bucket_score_new_reg3 output u_top/refresh_inst/bucket_score_new_reg3/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#19 Warning
+PREG Output pipelining  
+DSP u_top/refresh_inst/hash_inst/elem_hash1__0 output u_top/refresh_inst/hash_inst/elem_hash1__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-2#1 Warning
+MREG Output pipelining  
+DSP u_top/decision_inst/decision_inst_0/v_full multiplier stage u_top/decision_inst/decision_inst_0/v_full/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#2 Warning
+MREG Output pipelining  
+DSP u_top/decision_inst/decision_inst_1/v_full multiplier stage u_top/decision_inst/decision_inst_1/v_full/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#3 Warning
+MREG Output pipelining  
+DSP u_top/decision_inst/decision_inst_2/v_full multiplier stage u_top/decision_inst/decision_inst_2/v_full/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#4 Warning
+MREG Output pipelining  
+DSP u_top/decision_inst/decision_inst_3/v_full multiplier stage u_top/decision_inst/decision_inst_3/v_full/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#5 Warning
+MREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_0 multiplier stage u_top/decision_inst/hash_inst/product_0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#6 Warning
+MREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_0__0 multiplier stage u_top/decision_inst/hash_inst/product_0__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#7 Warning
+MREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_0__1 multiplier stage u_top/decision_inst/hash_inst/product_0__1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#8 Warning
+MREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_1 multiplier stage u_top/decision_inst/hash_inst/product_1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#9 Warning
+MREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_1__0 multiplier stage u_top/decision_inst/hash_inst/product_1__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#10 Warning
+MREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_1__1 multiplier stage u_top/decision_inst/hash_inst/product_1__1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#11 Warning
+MREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_2 multiplier stage u_top/decision_inst/hash_inst/product_2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#12 Warning
+MREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_2__0 multiplier stage u_top/decision_inst/hash_inst/product_2__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#13 Warning
+MREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_2__1 multiplier stage u_top/decision_inst/hash_inst/product_2__1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#14 Warning
+MREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_3 multiplier stage u_top/decision_inst/hash_inst/product_3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#15 Warning
+MREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_3__0 multiplier stage u_top/decision_inst/hash_inst/product_3__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#16 Warning
+MREG Output pipelining  
+DSP u_top/decision_inst/hash_inst/product_3__1 multiplier stage u_top/decision_inst/hash_inst/product_3__1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#17 Warning
+MREG Output pipelining  
+DSP u_top/refresh_inst/bucket_score_new_reg2 multiplier stage u_top/refresh_inst/bucket_score_new_reg2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#18 Warning
+MREG Output pipelining  
+DSP u_top/refresh_inst/bucket_score_new_reg3 multiplier stage u_top/refresh_inst/bucket_score_new_reg3/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#19 Warning
+MREG Output pipelining  
+DSP u_top/refresh_inst/hash_inst/elem_hash1 multiplier stage u_top/refresh_inst/hash_inst/elem_hash1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#20 Warning
+MREG Output pipelining  
+DSP u_top/refresh_inst/hash_inst/elem_hash1__0 multiplier stage u_top/refresh_inst/hash_inst/elem_hash1__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#21 Warning
+MREG Output pipelining  
+DSP u_top/refresh_inst/hash_inst/elem_hash1__1 multiplier stage u_top/refresh_inst/hash_inst/elem_hash1__1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOR-1#1 Warning
+Asynchronous load check  
+DSP u_top/refresh_inst/hash_inst/elem_hash1__0 output is connected to registers with an asynchronous reset (u_top/refresh_inst/hash_inst/elem_hash_reg[0]__1). This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPOR-1#2 Warning
+Asynchronous load check  
+DSP u_top/refresh_inst/hash_inst/elem_hash1__0 output is connected to registers with an asynchronous reset (u_top/refresh_inst/hash_inst/elem_hash_reg[10]__1). This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPOR-1#3 Warning
+Asynchronous load check  
+DSP u_top/refresh_inst/hash_inst/elem_hash1__0 output is connected to registers with an asynchronous reset (u_top/refresh_inst/hash_inst/elem_hash_reg[11]__1). This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPOR-1#4 Warning
+Asynchronous load check  
+DSP u_top/refresh_inst/hash_inst/elem_hash1__0 output is connected to registers with an asynchronous reset (u_top/refresh_inst/hash_inst/elem_hash_reg[12]__1). This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPOR-1#5 Warning
+Asynchronous load check  
+DSP u_top/refresh_inst/hash_inst/elem_hash1__0 output is connected to registers with an asynchronous reset (u_top/refresh_inst/hash_inst/elem_hash_reg[13]__1). This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPOR-1#6 Warning
+Asynchronous load check  
+DSP u_top/refresh_inst/hash_inst/elem_hash1__0 output is connected to registers with an asynchronous reset (u_top/refresh_inst/hash_inst/elem_hash_reg[14]__1). This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPOR-1#7 Warning
+Asynchronous load check  
+DSP u_top/refresh_inst/hash_inst/elem_hash1__0 output is connected to registers with an asynchronous reset (u_top/refresh_inst/hash_inst/elem_hash_reg[15]__1). This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPOR-1#8 Warning
+Asynchronous load check  
+DSP u_top/refresh_inst/hash_inst/elem_hash1__0 output is connected to registers with an asynchronous reset (u_top/refresh_inst/hash_inst/elem_hash_reg[16]__1). This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPOR-1#9 Warning
+Asynchronous load check  
+DSP u_top/refresh_inst/hash_inst/elem_hash1__0 output is connected to registers with an asynchronous reset (u_top/refresh_inst/hash_inst/elem_hash_reg[1]__1). This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPOR-1#10 Warning
+Asynchronous load check  
+DSP u_top/refresh_inst/hash_inst/elem_hash1__0 output is connected to registers with an asynchronous reset (u_top/refresh_inst/hash_inst/elem_hash_reg[2]__1). This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPOR-1#11 Warning
+Asynchronous load check  
+DSP u_top/refresh_inst/hash_inst/elem_hash1__0 output is connected to registers with an asynchronous reset (u_top/refresh_inst/hash_inst/elem_hash_reg[3]__1). This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPOR-1#12 Warning
+Asynchronous load check  
+DSP u_top/refresh_inst/hash_inst/elem_hash1__0 output is connected to registers with an asynchronous reset (u_top/refresh_inst/hash_inst/elem_hash_reg[4]__1). This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPOR-1#13 Warning
+Asynchronous load check  
+DSP u_top/refresh_inst/hash_inst/elem_hash1__0 output is connected to registers with an asynchronous reset (u_top/refresh_inst/hash_inst/elem_hash_reg[5]__1). This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPOR-1#14 Warning
+Asynchronous load check  
+DSP u_top/refresh_inst/hash_inst/elem_hash1__0 output is connected to registers with an asynchronous reset (u_top/refresh_inst/hash_inst/elem_hash_reg[6]__1). This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPOR-1#15 Warning
+Asynchronous load check  
+DSP u_top/refresh_inst/hash_inst/elem_hash1__0 output is connected to registers with an asynchronous reset (u_top/refresh_inst/hash_inst/elem_hash_reg[7]__1). This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPOR-1#16 Warning
+Asynchronous load check  
+DSP u_top/refresh_inst/hash_inst/elem_hash1__0 output is connected to registers with an asynchronous reset (u_top/refresh_inst/hash_inst/elem_hash_reg[8]__1). This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPOR-1#17 Warning
+Asynchronous load check  
+DSP u_top/refresh_inst/hash_inst/elem_hash1__0 output is connected to registers with an asynchronous reset (u_top/refresh_inst/hash_inst/elem_hash_reg[9]__1). This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+RBOR-1#1 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#2 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#3 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#4 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#5 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#6 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#7 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#8 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#9 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#10 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#11 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#12 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#13 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[20].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (6) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#14 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#15 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#16 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#17 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#18 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#19 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#20 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#21 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#22 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#23 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#24 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#25 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#26 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#27 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#28 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#29 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#30 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#31 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#32 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#33 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#34 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[20].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (6) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#35 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#36 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#37 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#38 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#39 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#40 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#41 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#42 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#43 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_2/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#44 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_2/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#45 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_2/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#46 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_2/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#47 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_2/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#48 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_2/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#49 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_2/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#50 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_2/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#51 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_2/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#52 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_2/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#53 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_2/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#54 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_2/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#55 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_2/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[20].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (6) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#56 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_2/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#57 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_2/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#58 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_2/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#59 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_2/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#60 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_2/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#61 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_2/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#62 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_2/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#63 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_2/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#64 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#65 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#66 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#67 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#68 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#69 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#70 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#71 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#72 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#73 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#74 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#75 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#76 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[20].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (6) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#77 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#78 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#79 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#80 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#81 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#82 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#83 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+RBOR-1#84 Warning
+RAMB output registers  
+RAMB u_top/bram_inst_3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram output DOB (9) is connected to asynchronous registers, if you use synchronous controls you will get better results both in area and delay (RAMB has synchronous registers built in).
+Related violations: <none>
+
+REQP-1839#1 Warning
+RAMB36 async control check  
+The RAMB36E1 u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRARDADDR[10] (net: u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addra[7]) which is driven by a register (u_top/bram_addra_0_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#2 Warning
+RAMB36 async control check  
+The RAMB36E1 u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRARDADDR[11] (net: u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addra[8]) which is driven by a register (u_top/bram_addra_0_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#3 Warning
+RAMB36 async control check  
+The RAMB36E1 u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRARDADDR[12] (net: u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addra[9]) which is driven by a register (u_top/bram_addra_0_reg[9]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#4 Warning
+RAMB36 async control check  
+The RAMB36E1 u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRARDADDR[13] (net: u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addra[10]) which is driven by a register (u_top/bram_addra_0_reg[10]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#5 Warning
+RAMB36 async control check  
+The RAMB36E1 u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRARDADDR[14] (net: u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addra[11]) which is driven by a register (u_top/bram_addra_0_reg[11]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#6 Warning
+RAMB36 async control check  
+The RAMB36E1 u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRARDADDR[3] (net: u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addra[0]) which is driven by a register (u_top/bram_addra_0_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#7 Warning
+RAMB36 async control check  
+The RAMB36E1 u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRARDADDR[4] (net: u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addra[1]) which is driven by a register (u_top/bram_addra_0_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#8 Warning
+RAMB36 async control check  
+The RAMB36E1 u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRARDADDR[5] (net: u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addra[2]) which is driven by a register (u_top/bram_addra_0_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#9 Warning
+RAMB36 async control check  
+The RAMB36E1 u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRARDADDR[6] (net: u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addra[3]) which is driven by a register (u_top/bram_addra_0_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#10 Warning
+RAMB36 async control check  
+The RAMB36E1 u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRARDADDR[7] (net: u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addra[4]) which is driven by a register (u_top/bram_addra_0_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#11 Warning
+RAMB36 async control check  
+The RAMB36E1 u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRARDADDR[8] (net: u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addra[5]) which is driven by a register (u_top/bram_addra_0_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#12 Warning
+RAMB36 async control check  
+The RAMB36E1 u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRARDADDR[9] (net: u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addra[6]) which is driven by a register (u_top/bram_addra_0_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#13 Warning
+RAMB36 async control check  
+The RAMB36E1 u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[11] (net: u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[8]) which is driven by a register (u_top/decision_inst/hash_inst/addr_0_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#14 Warning
+RAMB36 async control check  
+The RAMB36E1 u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[11] (net: u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[8]) which is driven by a register (u_top/decision_inst/read_req_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#15 Warning
+RAMB36 async control check  
+The RAMB36E1 u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[12] (net: u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[9]) which is driven by a register (u_top/decision_inst/hash_inst/addr_0_reg[9]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#16 Warning
+RAMB36 async control check  
+The RAMB36E1 u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[12] (net: u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[9]) which is driven by a register (u_top/decision_inst/read_req_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#17 Warning
+RAMB36 async control check  
+The RAMB36E1 u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[13] (net: u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[10]) which is driven by a register (u_top/decision_inst/hash_inst/addr_0_reg[10]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#18 Warning
+RAMB36 async control check  
+The RAMB36E1 u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[13] (net: u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[10]) which is driven by a register (u_top/decision_inst/read_req_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#19 Warning
+RAMB36 async control check  
+The RAMB36E1 u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[14] (net: u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[11]) which is driven by a register (u_top/decision_inst/hash_inst/addr_0_reg[11]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#20 Warning
+RAMB36 async control check  
+The RAMB36E1 u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[14] (net: u_top/bram_inst_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[11]) which is driven by a register (u_top/decision_inst/read_req_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+

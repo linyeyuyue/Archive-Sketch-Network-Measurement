@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.sim/top/behav/xsim/top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="5,214.288 ns"></ZoomStartTime>
+      <ZoomEndTime time="7,307.659 ns"></ZoomEndTime>
+      <Cursor1Time time="6,650.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="225"></NameColumnWidth>
+      <ValueColumnWidth column_width="124"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="46" />
+   <wave_markers>
+      <marker time="670000" label="" />
+      <marker time="870000" label="" />
+      <marker time="1070000" label="" />
+      <marker time="2670000" label="" />
+      <marker time="2870000" label="" />
+      <marker time="4870000" label="" />
+      <marker time="5070000" label="" />
+      <marker time="8670000" label="" />
+      <marker time="8870000" label="" />
+      <marker time="9070000" label="" />
+      <marker time="6870000" label="" />
+      <marker time="4670000" label="" />
+      <marker time="6670000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/top_tb/u_top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/flow_key" type="array">
+      <obj_property name="ElementShortName">flow_key[31:0]</obj_property>
+      <obj_property name="ObjectShortName">flow_key[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/elem" type="array">
+      <obj_property name="ElementShortName">elem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">elem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/threat_key" type="array">
+      <obj_property name="ElementShortName">threat_key[31:0]</obj_property>
+      <obj_property name="ObjectShortName">threat_key[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/threat_score" type="array">
+      <obj_property name="ElementShortName">threat_score[9:0]</obj_property>
+      <obj_property name="ObjectShortName">threat_score[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/flow_key_refr" type="array">
+      <obj_property name="ElementShortName">flow_key_refr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">flow_key_refr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/refresh_inst/bucket_score_new_reg" type="array">
+      <obj_property name="ElementShortName">bucket_score_new_reg[9:0]</obj_property>
+      <obj_property name="ObjectShortName">bucket_score_new_reg[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/refresh_complete" type="logic">
+      <obj_property name="ElementShortName">refresh_complete</obj_property>
+      <obj_property name="ObjectShortName">refresh_complete</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/timest" type="array">
+      <obj_property name="ElementShortName">timest[15:0]</obj_property>
+      <obj_property name="ObjectShortName">timest[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/clk_cnt" type="array">
+      <obj_property name="ElementShortName">clk_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_cnt[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/flow_key_deci" type="array">
+      <obj_property name="ElementShortName">flow_key_deci[31:0]</obj_property>
+      <obj_property name="ObjectShortName">flow_key_deci[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/deci_read_req" type="logic">
+      <obj_property name="ElementShortName">deci_read_req</obj_property>
+      <obj_property name="ObjectShortName">deci_read_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/deci_doutb_0" type="array">
+      <obj_property name="ElementShortName">deci_doutb_0[185:0]</obj_property>
+      <obj_property name="ObjectShortName">deci_doutb_0[185:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/deci_doutb_1" type="array">
+      <obj_property name="ElementShortName">deci_doutb_1[185:0]</obj_property>
+      <obj_property name="ObjectShortName">deci_doutb_1[185:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/need_clear_0" type="logic">
+      <obj_property name="ElementShortName">need_clear_0</obj_property>
+      <obj_property name="ObjectShortName">need_clear_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/need_clear_1" type="logic">
+      <obj_property name="ElementShortName">need_clear_1</obj_property>
+      <obj_property name="ObjectShortName">need_clear_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/hash_addr_0" type="array">
+      <obj_property name="ElementShortName">hash_addr_0[11:0]</obj_property>
+      <obj_property name="ObjectShortName">hash_addr_0[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/hash_addr_1" type="array">
+      <obj_property name="ElementShortName">hash_addr_1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">hash_addr_1[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/decision_complete" type="logic">
+      <obj_property name="ElementShortName">decision_complete</obj_property>
+      <obj_property name="ObjectShortName">decision_complete</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/decision_progress" type="logic">
+      <obj_property name="ElementShortName">decision_progress</obj_property>
+      <obj_property name="ObjectShortName">decision_progress</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/elem_refr" type="array">
+      <obj_property name="ElementShortName">elem_refr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">elem_refr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/refr_doutb_0" type="array">
+      <obj_property name="ElementShortName">refr_doutb_0[185:0]</obj_property>
+      <obj_property name="ObjectShortName">refr_doutb_0[185:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/refr_doutb_1" type="array">
+      <obj_property name="ElementShortName">refr_doutb_1[185:0]</obj_property>
+      <obj_property name="ObjectShortName">refr_doutb_1[185:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/refr_wea_0" type="logic">
+      <obj_property name="ElementShortName">refr_wea_0</obj_property>
+      <obj_property name="ObjectShortName">refr_wea_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/refr_wea_1" type="logic">
+      <obj_property name="ElementShortName">refr_wea_1</obj_property>
+      <obj_property name="ObjectShortName">refr_wea_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/refr_addr_0" type="array">
+      <obj_property name="ElementShortName">refr_addr_0[11:0]</obj_property>
+      <obj_property name="ObjectShortName">refr_addr_0[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/refr_addr_1" type="array">
+      <obj_property name="ElementShortName">refr_addr_1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">refr_addr_1[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/refr_dina_0" type="array">
+      <obj_property name="ElementShortName">refr_dina_0[185:0]</obj_property>
+      <obj_property name="ObjectShortName">refr_dina_0[185:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/refr_dina_1" type="array">
+      <obj_property name="ElementShortName">refr_dina_1[185:0]</obj_property>
+      <obj_property name="ObjectShortName">refr_dina_1[185:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/bram_wea_0" type="logic">
+      <obj_property name="ElementShortName">bram_wea_0</obj_property>
+      <obj_property name="ObjectShortName">bram_wea_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/bram_addra_0" type="array">
+      <obj_property name="ElementShortName">bram_addra_0[11:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_addra_0[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/bram_dina_0" type="array">
+      <obj_property name="ElementShortName">bram_dina_0[185:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_dina_0[185:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/bram_enb_0" type="logic">
+      <obj_property name="ElementShortName">bram_enb_0</obj_property>
+      <obj_property name="ObjectShortName">bram_enb_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/bram_addrb_0" type="array">
+      <obj_property name="ElementShortName">bram_addrb_0[11:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_addrb_0[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/bram_doutb_0" type="array">
+      <obj_property name="ElementShortName">bram_doutb_0[185:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_doutb_0[185:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/bram_wea_1" type="logic">
+      <obj_property name="ElementShortName">bram_wea_1</obj_property>
+      <obj_property name="ObjectShortName">bram_wea_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/bram_addra_1" type="array">
+      <obj_property name="ElementShortName">bram_addra_1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_addra_1[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/bram_dina_1" type="array">
+      <obj_property name="ElementShortName">bram_dina_1[185:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_dina_1[185:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/bram_enb_1" type="logic">
+      <obj_property name="ElementShortName">bram_enb_1</obj_property>
+      <obj_property name="ObjectShortName">bram_enb_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/bram_addrb_1" type="array">
+      <obj_property name="ElementShortName">bram_addrb_1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_addrb_1[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/bram_doutb_1" type="array">
+      <obj_property name="ElementShortName">bram_doutb_1[185:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_doutb_1[185:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/elem_deci" type="array">
+      <obj_property name="ElementShortName">elem_deci[31:0]</obj_property>
+      <obj_property name="ObjectShortName">elem_deci[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/start_decision" type="logic">
+      <obj_property name="ElementShortName">start_decision</obj_property>
+      <obj_property name="ObjectShortName">start_decision</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/start_refresh" type="logic">
+      <obj_property name="ElementShortName">start_refresh</obj_property>
+      <obj_property name="ObjectShortName">start_refresh</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/u_top/decision_inst/decision_inst_0/v_value" type="array">
+      <obj_property name="ElementShortName">v_value[15:0]</obj_property>
+      <obj_property name="ObjectShortName">v_value[15:0]</obj_property>
+   </wvobject>
+</wave_config>

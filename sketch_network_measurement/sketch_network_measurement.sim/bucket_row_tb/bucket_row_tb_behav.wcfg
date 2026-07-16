@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="bucket_row_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="bucket_row_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="944.314 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,992.315 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="200"></NameColumnWidth>
+      <ValueColumnWidth column_width="215"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wave_markers>
+      <marker time="110000" label="" />
+      <marker time="410000" label="" />
+      <marker time="650000" label="" />
+      <marker time="1550000" label="" />
+      <marker time="1830000" label="" />
+      <marker time="950000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/bucket_row_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bucket_row_tb/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bucket_row_tb/wea" type="logic">
+      <obj_property name="ElementShortName">wea</obj_property>
+      <obj_property name="ObjectShortName">wea</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bucket_row_tb/addra" type="array">
+      <obj_property name="ElementShortName">addra[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bucket_row_tb/dina" type="array">
+      <obj_property name="ElementShortName">dina[185:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[185:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bucket_row_tb/douta" type="array">
+      <obj_property name="ElementShortName">douta[185:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[185:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bucket_row_tb/enb" type="logic">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bucket_row_tb/web" type="logic">
+      <obj_property name="ElementShortName">web</obj_property>
+      <obj_property name="ObjectShortName">web</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bucket_row_tb/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bucket_row_tb/dinb" type="array">
+      <obj_property name="ElementShortName">dinb[185:0]</obj_property>
+      <obj_property name="ObjectShortName">dinb[185:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bucket_row_tb/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[185:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[185:0]</obj_property>
+   </wvobject>
+</wave_config>

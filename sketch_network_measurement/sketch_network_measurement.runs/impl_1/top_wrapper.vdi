@@ -1,0 +1,88 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Wed Jun 10 15:13:14 2026
+# Process ID         : 16988
+# Current directory  : F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.runs/impl_1
+# Command line       : vivado.exe -log top_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_wrapper.tcl -notrace
+# Log file           : F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.runs/impl_1/top_wrapper.vdi
+# Journal file       : F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.runs/impl_1\vivado.jou
+# Running On         : yuyueslenovo
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : AMD Ryzen 7 5800H with Radeon Graphics         
+# CPU Frequency      : 3194 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 17024 MB
+# Swap memory        : 15569 MB
+# Total Virtual      : 32593 MB
+# Available Virtual  : 10310 MB
+#-----------------------------------------------------------
+source top_wrapper.tcl -notrace
+Command: open_checkpoint top_wrapper_routed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 337.711 ; gain = 4.852
+INFO: [Device 21-403] Loading part xc7z020clg484-2
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.279 . Memory (MB): peak = 839.309 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 434 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2025.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 966.430 ; gain = 2.438
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1579.320 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1579.320 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1579.320 ; gain = 0.000
+Read placeStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.316 . Memory (MB): peak = 1579.320 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1579.320 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.144 . Memory (MB): peak = 1579.320 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.523 . Memory (MB): peak = 1579.320 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.576 . Memory (MB): peak = 1579.320 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1581.676 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 94 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 88 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 6 instances
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2025.2 (64-bit) build 6299465
+INFO: [Runs 36-643] Strategy 'Vivado Advanced Implementation Defaults' used by Implementation Run impl_1 is not available in Vivado Implementation. Strategy 'Vivado Implementation Defaults' will be used instead
+INFO: [Runs 36-641] Report strategy 'Vivado Advanced Implementation Default Reports' used by Implementation Run impl_1 is not available in Vivado Implementation. Strategy 'Vivado Implementation Default Reports' will be used instead
+open_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:20 . Memory (MB): peak = 1606.555 ; gain = 1282.734
+Command: write_bitstream -force top_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/vivado/2025.2/Vivado/data/ip'.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado 12-3199] DRC finished with 0 Errors
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Integrating Hard IP ELF/MEM with the PDI.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./top_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Common 17-83] Releasing license: Implementation
+24 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:22 ; elapsed = 00:00:21 . Memory (MB): peak = 2154.930 ; gain = 548.375
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 10 15:13:58 2026...

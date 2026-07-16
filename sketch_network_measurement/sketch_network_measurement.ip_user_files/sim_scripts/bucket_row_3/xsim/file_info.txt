@@ -1,0 +1,2 @@
+bucket_row_3.v,verilog,xil_defaultlib,../../../../sketch_network_measurement.gen/sources_1/ip/bucket_row_3/sim/bucket_row_3.v,incdir="../../../../../../vivado/2025.2/Vivado/data/rsb/busdef"
+glbl.v,Verilog,xil_defaultlib,glbl.v

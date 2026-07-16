@@ -1,0 +1,709 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Mon May  4 07:39:21 2026
+# Process ID         : 65116
+# Current directory  : F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.runs/synth_1
+# Command line       : vivado.exe -log top_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_wrapper.tcl
+# Log file           : F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.runs/synth_1/top_wrapper.vds
+# Journal file       : F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.runs/synth_1\vivado.jou
+# Running On         : yuyueslenovo
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : AMD Ryzen 7 5800H with Radeon Graphics         
+# CPU Frequency      : 3194 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 17024 MB
+# Swap memory        : 17179 MB
+# Total Virtual      : 34204 MB
+# Available Virtual  : 9827 MB
+#-----------------------------------------------------------
+source top_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:26 . Memory (MB): peak = 544.344 ; gain = 221.309
+Command: read_checkpoint -auto_incremental -incremental F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/utils_1/imports/synth_1/top.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/utils_1/imports/synth_1/top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top top_wrapper -part xc7z020clg484-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-2
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 86744
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1349.910 ; gain = 541.145
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_wrapper' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/top_wrapper.v:23]
+INFO: [Synth 8-6157] synthesizing module 'test_stimulus' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/test_stimulus.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/test_stimulus.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'test_stimulus' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/test_stimulus.v:23]
+INFO: [Synth 8-6157] synthesizing module 'top' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bucket_decision_top' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/bucket_decision_top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'addr_hash' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/hash.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'addr_hash' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/hash.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bucket_decision_0' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/bucket_decision_0.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ln_lut_8bit_0' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/ln_lut_8bit_0.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ln_lut_8bit_0' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/ln_lut_8bit_0.v:23]
+INFO: [Synth 8-6157] synthesizing module 'inv_lut_16bit_0' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/inv_lut_16bit_0.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'inv_lut_16bit_0' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/inv_lut_16bit_0.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/bucket_decision_0.v:106]
+INFO: [Synth 8-6155] done synthesizing module 'bucket_decision_0' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/bucket_decision_0.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bucket_decision_1' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/bucket_decision_1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ln_lut_8bit_1' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/ln_lut_8bit_1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ln_lut_8bit_1' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/ln_lut_8bit_1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'inv_lut_16bit_1' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/inv_lut_16bit_1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'inv_lut_16bit_1' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/inv_lut_16bit_1.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/bucket_decision_1.v:106]
+INFO: [Synth 8-6155] done synthesizing module 'bucket_decision_1' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/bucket_decision_1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bucket_decision_2' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/bucket_decision_2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ln_lut_8bit_2' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/ln_lut_8bit_2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ln_lut_8bit_2' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/ln_lut_8bit_2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'inv_lut_16bit_2' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/inv_lut_16bit_2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'inv_lut_16bit_2' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/inv_lut_16bit_2.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/bucket_decision_2.v:106]
+INFO: [Synth 8-6155] done synthesizing module 'bucket_decision_2' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/bucket_decision_2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bucket_decision_3' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/bucket_decision_3.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ln_lut_8bit_3' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/ln_lut_8bit_3.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ln_lut_8bit_3' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/ln_lut_8bit_3.v:23]
+INFO: [Synth 8-6157] synthesizing module 'inv_lut_16bit_3' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/inv_lut_16bit_3.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'inv_lut_16bit_3' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/inv_lut_16bit_3.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/bucket_decision_3.v:106]
+INFO: [Synth 8-6155] done synthesizing module 'bucket_decision_3' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/bucket_decision_3.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/bucket_decision_top.v:146]
+INFO: [Synth 8-6155] done synthesizing module 'bucket_decision_top' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/bucket_decision_top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bucket_refresh' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/bucket_refresh.v:23]
+INFO: [Synth 8-6157] synthesizing module 'elem_hash' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/elem_hash.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'elem_hash' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/elem_hash.v:23]
+INFO: [Synth 8-6157] synthesizing module 'estim_calc_lut' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/estim_calc_lut.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'estim_calc_lut' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/estim_calc_lut.v:23]
+INFO: [Synth 8-6157] synthesizing module 'dis_inv_lut' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/dis_inv_lut.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'dis_inv_lut' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/dis_inv_lut.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/bucket_refresh.v:208]
+INFO: [Synth 8-155] case statement is not full and has no default [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/bucket_refresh.v:173]
+INFO: [Synth 8-6155] done synthesizing module 'bucket_refresh' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/bucket_refresh.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bucket_row_0' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.runs/synth_1/.Xil/Vivado-65116-yuyueslenovo/realtime/bucket_row_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bucket_row_0' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.runs/synth_1/.Xil/Vivado-65116-yuyueslenovo/realtime/bucket_row_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'bucket_row_1' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.runs/synth_1/.Xil/Vivado-65116-yuyueslenovo/realtime/bucket_row_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bucket_row_1' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.runs/synth_1/.Xil/Vivado-65116-yuyueslenovo/realtime/bucket_row_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'bucket_row_2' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.runs/synth_1/.Xil/Vivado-65116-yuyueslenovo/realtime/bucket_row_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bucket_row_2' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.runs/synth_1/.Xil/Vivado-65116-yuyueslenovo/realtime/bucket_row_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'bucket_row_3' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.runs/synth_1/.Xil/Vivado-65116-yuyueslenovo/realtime/bucket_row_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bucket_row_3' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.runs/synth_1/.Xil/Vivado-65116-yuyueslenovo/realtime/bucket_row_3_stub.v:6]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/top.v:215]
+INFO: [Synth 8-6157] synthesizing module 'ila_0' [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.runs/synth_1/.Xil/Vivado-65116-yuyueslenovo/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_0' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.runs/synth_1/.Xil/Vivado-65116-yuyueslenovo/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/top.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'top_wrapper' (0#1) [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/top_wrapper.v:23]
+WARNING: [Synth 8-6014] Unused sequential element hold_cnt_reg was removed.  [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/test_stimulus.v:51]
+WARNING: [Synth 8-7137] Register bucket_use_reg in module bucket_refresh has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/bucket_refresh.v:210]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_top'. This will prevent further optimization [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/top_wrapper.v:46]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ILA'. This will prevent further optimization [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/top.v:215]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'refresh_inst'. This will prevent further optimization [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/top.v:131]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'decision_inst'. This will prevent further optimization [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/top.v:108]
+WARNING: [Synth 8-7137] Register flow_key_half_reg in module top has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/top.v:306]
+WARNING: [Synth 8-7137] Register elem_half_reg in module top has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/top.v:307]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1524.598 ; gain = 715.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 1524.598 ; gain = 715.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 1524.598 ; gain = 715.832
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.157 . Memory (MB): peak = 1524.598 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [f:/vivado_projects/sketch_network_measurement/sketch_network_measurement.gen/sources_1/ip/bucket_row_2/bucket_row_2/bucket_row_0_in_context.xdc] for cell 'u_top/bram_inst_2'
+Finished Parsing XDC File [f:/vivado_projects/sketch_network_measurement/sketch_network_measurement.gen/sources_1/ip/bucket_row_2/bucket_row_2/bucket_row_0_in_context.xdc] for cell 'u_top/bram_inst_2'
+Parsing XDC File [f:/vivado_projects/sketch_network_measurement/sketch_network_measurement.gen/sources_1/ip/bucket_row_3/bucket_row_3/bucket_row_0_in_context.xdc] for cell 'u_top/bram_inst_3'
+Finished Parsing XDC File [f:/vivado_projects/sketch_network_measurement/sketch_network_measurement.gen/sources_1/ip/bucket_row_3/bucket_row_3/bucket_row_0_in_context.xdc] for cell 'u_top/bram_inst_3'
+Parsing XDC File [f:/vivado_projects/sketch_network_measurement/sketch_network_measurement.gen/sources_1/ip/bucket_row_0/bucket_row_0/bucket_row_0_in_context.xdc] for cell 'u_top/bram_inst_0'
+Finished Parsing XDC File [f:/vivado_projects/sketch_network_measurement/sketch_network_measurement.gen/sources_1/ip/bucket_row_0/bucket_row_0/bucket_row_0_in_context.xdc] for cell 'u_top/bram_inst_0'
+Parsing XDC File [f:/vivado_projects/sketch_network_measurement/sketch_network_measurement.gen/sources_1/ip/bucket_row_1/bucket_row_1/bucket_row_1_in_context.xdc] for cell 'u_top/bram_inst_1'
+Finished Parsing XDC File [f:/vivado_projects/sketch_network_measurement/sketch_network_measurement.gen/sources_1/ip/bucket_row_1/bucket_row_1/bucket_row_1_in_context.xdc] for cell 'u_top/bram_inst_1'
+Parsing XDC File [f:/vivado_projects/sketch_network_measurement/sketch_network_measurement.gen/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'u_top/ILA'
+Finished Parsing XDC File [f:/vivado_projects/sketch_network_measurement/sketch_network_measurement.gen/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'u_top/ILA'
+Parsing XDC File [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/constrs_1/new/top_clk.xdc]
+Finished Parsing XDC File [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/constrs_1/new/top_clk.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/constrs_1/new/top_clk.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1571.512 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.111 . Memory (MB): peak = 1571.512 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 1571.512 ; gain = 762.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 1571.512 ; gain = 762.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 1571.512 ; gain = 762.746
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'test_stimulus'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'bucket_decision_0'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'bucket_decision_1'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'bucket_decision_2'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'bucket_decision_3'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'bucket_decision_top'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'bucket_refresh'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              001 |                             0000
+                 iSTATE0 |                              010 |                             0001
+                 iSTATE1 |                              100 |                             0010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'test_stimulus'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              001 |                               00
+                    CALC |                              010 |                               01
+                  DECIDE |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'bucket_decision_0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              001 |                               00
+                    CALC |                              010 |                               01
+                  DECIDE |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'bucket_decision_1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              001 |                               00
+                    CALC |                              010 |                               01
+                  DECIDE |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'bucket_decision_2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              001 |                               00
+                    CALC |                              010 |                               01
+                  DECIDE |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'bucket_decision_3'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    HASH |                              001 |                               00
+                    READ |                              010 |                               01
+                DECISION |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'bucket_decision_top'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              000 |                              000
+                   MATCH |                              001 |                              001
+                  CALC_1 |                              010 |                              010
+                  CALC_2 |                              011 |                              011
+                  CALC_3 |                              100 |                              100
+                   WRITE |                              101 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'bucket_refresh'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 1571.512 ; gain = 762.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   38 Bit       Adders := 4     
+	   2 Input   32 Bit       Adders := 4     
+	   3 Input   16 Bit       Adders := 8     
+	   2 Input   16 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 4     
+	  64 Input    6 Bit       Adders := 4     
+	  65 Input    6 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 1     
++---XORs : 
+	   3 Input     12 Bit         XORs := 4     
+	   4 Input      1 Bit         XORs := 2     
++---Registers : 
+	              186 Bit    Registers := 21    
+	               64 Bit    Registers := 10    
+	               32 Bit    Registers := 13    
+	               16 Bit    Registers := 16    
+	               12 Bit    Registers := 12    
+	               10 Bit    Registers := 5     
+	                8 Bit    Registers := 5     
+	                6 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 30    
++---Multipliers : 
+	              32x32  Multipliers := 1     
++---ROMs : 
+	                    ROMs := 4     
++---Muxes : 
+	   5 Input  186 Bit        Muxes := 4     
+	   2 Input  186 Bit        Muxes := 8     
+	   2 Input   64 Bit        Muxes := 12    
+	   4 Input   64 Bit        Muxes := 6     
+	   5 Input   64 Bit        Muxes := 8     
+	   3 Input   32 Bit        Muxes := 3     
+	   2 Input   32 Bit        Muxes := 4     
+	   5 Input   32 Bit        Muxes := 1     
+	 257 Input   16 Bit        Muxes := 4     
+	   2 Input   16 Bit        Muxes := 4     
+	  65 Input   16 Bit        Muxes := 1     
+	  64 Input   16 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 20    
+	   4 Input   10 Bit        Muxes := 1     
+	   5 Input   10 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 8     
+	   4 Input    6 Bit        Muxes := 2     
+	   6 Input    6 Bit        Muxes := 2     
+	   3 Input    4 Bit        Muxes := 1     
+	   6 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   6 Input    2 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 30    
+	   2 Input    1 Bit        Muxes := 301   
+	   4 Input    1 Bit        Muxes := 4     
+	   6 Input    1 Bit        Muxes := 21    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP product_0, operation Mode is: A*(B:0x6205).
+DSP Report: operator product_0 is absorbed into DSP product_0.
+DSP Report: operator product_0 is absorbed into DSP product_0.
+DSP Report: Generating DSP product_0, operation Mode is: A*(B:0xe205).
+DSP Report: operator product_0 is absorbed into DSP product_0.
+DSP Report: operator product_0 is absorbed into DSP product_0.
+DSP Report: Generating DSP product_0, operation Mode is: (PCIN>>17)+A*(B:0x6dcf).
+DSP Report: operator product_0 is absorbed into DSP product_0.
+DSP Report: operator product_0 is absorbed into DSP product_0.
+DSP Report: Generating DSP product_1, operation Mode is: A*(B:0x41c5).
+DSP Report: operator product_1 is absorbed into DSP product_1.
+DSP Report: operator product_1 is absorbed into DSP product_1.
+DSP Report: Generating DSP product_1, operation Mode is: A*(B:0x1c1c5).
+DSP Report: operator product_1 is absorbed into DSP product_1.
+DSP Report: operator product_1 is absorbed into DSP product_1.
+DSP Report: Generating DSP product_1, operation Mode is: (PCIN>>17)+A*(B:0x2fa3).
+DSP Report: operator product_1 is absorbed into DSP product_1.
+DSP Report: operator product_1 is absorbed into DSP product_1.
+DSP Report: Generating DSP product_2, operation Mode is: A*(B:0x7d43).
+DSP Report: operator product_2 is absorbed into DSP product_2.
+DSP Report: operator product_2 is absorbed into DSP product_2.
+DSP Report: Generating DSP product_2, operation Mode is: A*(B:0x7d43).
+DSP Report: operator product_2 is absorbed into DSP product_2.
+DSP Report: operator product_2 is absorbed into DSP product_2.
+DSP Report: Generating DSP product_2, operation Mode is: (PCIN>>17)+A*(B:0x1d95).
+DSP Report: operator product_2 is absorbed into DSP product_2.
+DSP Report: operator product_2 is absorbed into DSP product_2.
+DSP Report: Generating DSP product_3, operation Mode is: A*(B:0x3e35).
+DSP Report: operator product_3 is absorbed into DSP product_3.
+DSP Report: operator product_3 is absorbed into DSP product_3.
+DSP Report: Generating DSP product_3, operation Mode is: A*(B:0x13e35).
+DSP Report: operator product_3 is absorbed into DSP product_3.
+DSP Report: operator product_3 is absorbed into DSP product_3.
+DSP Report: Generating DSP product_3, operation Mode is: (PCIN>>17)+A*(B:0xcc4).
+DSP Report: operator product_3 is absorbed into DSP product_3.
+DSP Report: operator product_3 is absorbed into DSP product_3.
+DSP Report: Generating DSP v_full, operation Mode is: (C:0x8)+A*B.
+DSP Report: operator v_full is absorbed into DSP v_full.
+DSP Report: operator v_full0 is absorbed into DSP v_full.
+DSP Report: Generating DSP v_full, operation Mode is: (C:0x8)+A*B.
+DSP Report: operator v_full is absorbed into DSP v_full.
+DSP Report: operator v_full0 is absorbed into DSP v_full.
+DSP Report: Generating DSP v_full, operation Mode is: (C:0x8)+A*B.
+DSP Report: operator v_full is absorbed into DSP v_full.
+DSP Report: operator v_full0 is absorbed into DSP v_full.
+DSP Report: Generating DSP v_full, operation Mode is: (C:0x8)+A*B.
+DSP Report: operator v_full is absorbed into DSP v_full.
+DSP Report: operator v_full0 is absorbed into DSP v_full.
+WARNING: [Synth 8-6014] Unused sequential element hash_inst/elem_hash_reg was removed.  [F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.srcs/original/elem_hash.v:35]
+DSP Report: Generating DSP hash_inst/elem_hash1, operation Mode is: (A:0x179b9)*B.
+DSP Report: operator hash_inst/elem_hash1 is absorbed into DSP hash_inst/elem_hash1.
+DSP Report: operator hash_inst/elem_hash1 is absorbed into DSP hash_inst/elem_hash1.
+DSP Report: Generating DSP hash_inst/elem_hash1, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator hash_inst/elem_hash1 is absorbed into DSP hash_inst/elem_hash1.
+DSP Report: operator hash_inst/elem_hash1 is absorbed into DSP hash_inst/elem_hash1.
+DSP Report: Generating DSP hash_inst/elem_hash1, operation Mode is: A*(B:0x179b9).
+DSP Report: operator hash_inst/elem_hash1 is absorbed into DSP hash_inst/elem_hash1.
+DSP Report: operator hash_inst/elem_hash1 is absorbed into DSP hash_inst/elem_hash1.
+DSP Report: Generating DSP hash_inst/elem_hash1, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator hash_inst/elem_hash1 is absorbed into DSP hash_inst/elem_hash1.
+DSP Report: operator hash_inst/elem_hash1 is absorbed into DSP hash_inst/elem_hash1.
+DSP Report: Generating DSP bucket_score_new_reg3, operation Mode is: C+A*B.
+DSP Report: operator bucket_score_new_reg3 is absorbed into DSP bucket_score_new_reg3.
+DSP Report: operator bucket_score_new_reg4 is absorbed into DSP bucket_score_new_reg3.
+DSP Report: Generating DSP bucket_score_new_reg2, operation Mode is: A*B.
+DSP Report: operator bucket_score_new_reg2 is absorbed into DSP bucket_score_new_reg2.
+DSP Report: operator bucket_score_new_reg2 is absorbed into DSP bucket_score_new_reg2.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[47]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[46]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[45]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[44]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[43]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[42]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[41]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[40]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[39]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[38]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[37]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[36]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[35]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[34]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[33]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[32]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[31]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[30]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[29]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[28]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[27]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[26]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[25]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[24]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[23]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[22]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[21]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[20]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[19]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[18]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[17]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[16]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[15]) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[47]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[46]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[45]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[44]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[43]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[42]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[41]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[40]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[39]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[38]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[37]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[36]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[35]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[34]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[33]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[32]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[31]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[30]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[29]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[28]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[27]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[26]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[25]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[24]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[23]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[22]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[21]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[20]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[19]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[18]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[17]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[16]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[15]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[14]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[13]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[12]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[11]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[10]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[9]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[8]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[7]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[6]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[5]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[4]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[3]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[2]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[1]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[0]__0) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[47]__1) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[46]__1) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[45]__1) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[44]__1) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[43]__1) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[42]__1) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[41]__1) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[40]__1) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[39]__1) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[38]__1) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[37]__1) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[36]__1) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[35]__1) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[34]__1) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[33]__1) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[32]__1) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[31]__1) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[30]__1) is unused and will be removed from module bucket_refresh.
+WARNING: [Synth 8-3332] Sequential element (hash_inst/elem_hash_reg[29]__1) is unused and will be removed from module bucket_refresh.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:49 . Memory (MB): peak = 1798.320 ; gain = 989.555
+---------------------------------------------------------------------------------
+ Sort Area is  hash_inst/elem_hash1_14 : 0 0 : 1209 3987 : Used 1 time 0
+ Sort Area is  hash_inst/elem_hash1_14 : 0 1 : 2778 3987 : Used 1 time 0
+ Sort Area is  hash_inst/elem_hash1_16 : 0 0 : 1124 3783 : Used 1 time 0
+ Sort Area is  hash_inst/elem_hash1_16 : 0 1 : 2659 3783 : Used 1 time 0
+ Sort Area is  product_1_5 : 0 0 : 1209 2211 : Used 1 time 0
+ Sort Area is  product_1_5 : 0 1 : 1002 2211 : Used 1 time 0
+ Sort Area is  product_0_0 : 0 0 : 1181 2183 : Used 1 time 0
+ Sort Area is  product_0_0 : 0 1 : 1002 2183 : Used 1 time 0
+ Sort Area is  product_2_8 : 0 0 : 1124 2078 : Used 1 time 0
+ Sort Area is  product_2_8 : 0 1 : 954 2078 : Used 1 time 0
+ Sort Area is  bucket_score_new_reg3_18 : 0 0 : 2029 2029 : Used 1 time 0
+ Sort Area is  product_3_c : 0 0 : 1209 1846 : Used 1 time 0
+ Sort Area is  product_3_c : 0 1 : 637 1846 : Used 1 time 0
+ Sort Area is  bucket_score_new_reg2_1a : 0 0 : 1148 1148 : Used 1 time 0
+ Sort Area is  v_full_11 : 0 0 : 937 937 : Used 1 time 0
+ Sort Area is  v_full_12 : 0 0 : 937 937 : Used 1 time 0
+ Sort Area is  v_full_13 : 0 0 : 937 937 : Used 1 time 0
+ Sort Area is  v_full_f : 0 0 : 937 937 : Used 1 time 0
+ Sort Area is  product_0_3 : 0 0 : 670 670 : Used 1 time 0
+ Sort Area is  product_1_7 : 0 0 : 670 670 : Used 1 time 0
+ Sort Area is  product_2_b : 0 0 : 670 670 : Used 1 time 0
+ Sort Area is  product_3_e : 0 0 : 670 670 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++------------------+------------+---------------+----------------+
+|Module Name       | RTL Object | Depth x Width | Implemented As | 
++------------------+------------+---------------+----------------+
+|bucket_decision_0 | p_0_out    | 256x8         | LUT            | 
+|bucket_decision_1 | p_0_out    | 256x8         | LUT            | 
+|bucket_decision_2 | p_0_out    | 256x8         | LUT            | 
+|bucket_decision_3 | p_0_out    | 256x8         | LUT            | 
++------------------+------------+---------------+----------------+
+
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------------+-------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name       | DSP Mapping             | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------------+-------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|addr_hash         | A*(B:0x6205)            | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|addr_hash         | A*(B:0xe205)            | 18     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|addr_hash         | (PCIN>>17)+A*(B:0x6dcf) | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|addr_hash         | A*(B:0x41c5)            | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|addr_hash         | A*(B:0x1c1c5)           | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|addr_hash         | (PCIN>>17)+A*(B:0x2fa3) | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|addr_hash         | A*(B:0x7d43)            | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|addr_hash         | A*(B:0x7d43)            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|addr_hash         | (PCIN>>17)+A*(B:0x1d95) | 15     | 14     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|addr_hash         | A*(B:0x3e35)            | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|addr_hash         | A*(B:0x13e35)           | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|addr_hash         | (PCIN>>17)+A*(B:0xcc4)  | 15     | 13     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|bucket_decision_0 | (C:0x8)+A*B             | 16     | 8      | 4      | -      | 20     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|bucket_decision_1 | (C:0x8)+A*B             | 16     | 8      | 4      | -      | 20     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|bucket_decision_2 | (C:0x8)+A*B             | 16     | 8      | 4      | -      | 20     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|bucket_decision_3 | (C:0x8)+A*B             | 16     | 8      | 4      | -      | 20     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|bucket_refresh    | (A:0x179b9)*B           | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|bucket_refresh    | (PCIN>>17)+A*B          | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|bucket_refresh    | A*(B:0x179b9)           | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|bucket_refresh    | (PCIN>>17)+A*B          | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|bucket_refresh    | C+A*B                   | 16     | 16     | 26     | -      | 28     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|bucket_refresh    | A*B                     | 25     | 7      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------------+-------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:00:58 . Memory (MB): peak = 1798.320 ; gain = 989.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:54 ; elapsed = 00:01:17 . Memory (MB): peak = 2144.297 ; gain = 1335.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:57 ; elapsed = 00:01:20 . Memory (MB): peak = 2144.359 ; gain = 1335.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:01 ; elapsed = 00:01:25 . Memory (MB): peak = 2153.191 ; gain = 1344.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:01 ; elapsed = 00:01:25 . Memory (MB): peak = 2153.191 ; gain = 1344.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:02 ; elapsed = 00:01:26 . Memory (MB): peak = 2153.191 ; gain = 1344.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:02 ; elapsed = 00:01:26 . Memory (MB): peak = 2153.191 ; gain = 1344.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:02 ; elapsed = 00:01:27 . Memory (MB): peak = 2153.191 ; gain = 1344.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:02 ; elapsed = 00:01:27 . Memory (MB): peak = 2153.191 ; gain = 1344.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++------------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name       | DSP Mapping     | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|bucket_decision_0 | C+A*B           | 13     | 7      | 4      | -      | 20     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|bucket_decision_1 | C+A*B           | 13     | 7      | 4      | -      | 20     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|bucket_decision_2 | C+A*B           | 13     | 7      | 4      | -      | 20     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|bucket_decision_3 | C+A*B           | 13     | 7      | 4      | -      | 20     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|addr_hash         | A*B             | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|addr_hash         | A*B             | 17     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|addr_hash         | PCIN>>17+A*B    | 30     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|addr_hash         | A*B             | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|addr_hash         | A*B             | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|addr_hash         | PCIN>>17+A*B    | 30     | 14     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|addr_hash         | A*B             | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|addr_hash         | A*B             | 17     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|addr_hash         | PCIN>>17+A*B    | 30     | 13     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|addr_hash         | A*B             | 15     | 14     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|addr_hash         | A*B             | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|addr_hash         | PCIN>>17+A*B    | 30     | 12     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|bucket_refresh    | C+A*B           | 15     | 13     | 21     | -      | 28     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|bucket_refresh    | A*B             | 24     | 6      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|bucket_refresh    | (A*B)'          | 17     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|bucket_refresh    | A*B             | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|bucket_refresh    | (PCIN>>17+A*B)' | 0      | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
++------------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |bucket_row_0  |         1|
+|2     |bucket_row_1  |         1|
+|3     |bucket_row_2  |         1|
+|4     |bucket_row_3  |         1|
+|5     |ila_0         |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |bucket_row |     4|
+|5     |ila        |     1|
+|6     |BUFG       |     1|
+|7     |CARRY4     |   139|
+|8     |DSP48E1    |    21|
+|11    |LUT1       |     7|
+|12    |LUT2       |  2750|
+|13    |LUT3       |   508|
+|14    |LUT4       |   663|
+|15    |LUT5       |   652|
+|16    |LUT6       |  1250|
+|17    |MUXF7      |    48|
+|18    |MUXF8      |    20|
+|19    |FDCE       |  4920|
+|20    |FDPE       |    32|
+|21    |FDRE       |    66|
+|22    |IBUF       |     2|
++------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:02 ; elapsed = 00:01:27 . Memory (MB): peak = 2153.191 ; gain = 1344.426
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 146 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:52 ; elapsed = 00:01:22 . Memory (MB): peak = 2153.191 ; gain = 1297.512
+Synthesis Optimization Complete : Time (s): cpu = 00:01:02 ; elapsed = 00:01:27 . Memory (MB): peak = 2153.191 ; gain = 1344.426
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.128 . Memory (MB): peak = 2162.266 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 228 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2165.961 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: a8c3e0cb
+INFO: [Common 17-83] Releasing license: Synthesis
+100 Infos, 106 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:09 ; elapsed = 00:01:53 . Memory (MB): peak = 2165.961 ; gain = 1586.145
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 2165.961 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'F:/vivado_projects/sketch_network_measurement/sketch_network_measurement.runs/synth_1/top_wrapper.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file top_wrapper_utilization_synth.rpt -pb top_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon May  4 07:42:10 2026...
